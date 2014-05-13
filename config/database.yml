@@ -1,10 +1,8 @@
 default: &default
-  adapter: mysql2
-  encoding: utf8
+  adapter: postgresql
+  encoding: unicode
   pool: 5
-  username: root
-  password: root
-  host: localhost
+  timeout: 5000
 
 development:
   <<: *default
@@ -16,6 +14,6 @@ test:
 
 production:
   <<: *default
-  database: topple_production
+  database: topple
   username: topple
   password: <%= ENV['TOPPLE_DATABASE_PASSWORD'] %>
