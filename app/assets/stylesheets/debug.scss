@@ -1,0 +1,6 @@
+.outlined {
+  outline: 1px solid green;
+
+  &.red { outline: 1px solid red; }
+  &.yellow { outline: 1px solid yellow; }
+}
