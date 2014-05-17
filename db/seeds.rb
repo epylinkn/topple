@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+(1..26).each_with_index do |i|
+  Card.create(value: i)
+  Card.create(value: i)
+end
+
