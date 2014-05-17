@@ -1,5 +1,5 @@
-<!DOCTYPE html ng-app="myApp">
-<html>
+<!DOCTYPE html>
+<html ng-app="myApp">
   <head>
     <title>Topple</title>
     <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -10,11 +10,10 @@
 
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
-        <%= yield %>
         <div ng-view></div>
+        <!-- <%= yield %> -->
       </div>
     </div>
-
 
   </body>
 </html>
