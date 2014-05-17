@@ -30,15 +30,10 @@ toppleControllers.controller('PlayCtrl', ['$scope', 'Card', function($scope, Car
       if ($scope.last == card.value) {
         $scope.matches.push(card.value);
       }
-
-      setTimeout($scope.reset, 100);
+    } else {
+      $scope.up = [card.id];
+      $scope.last = card.value;
     }
-  }
-
-  $scope.reset = function() {
-    debugger;
-    $scope.up = [];
-    $scope.last = '-1';
   }
 
   $scope.addMessage = function(e) {
