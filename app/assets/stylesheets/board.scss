@@ -1,0 +1,30 @@
+.board {
+}
+
+.card-container {
+  margin: 5px;
+  display: inline-block;
+  background: red;
+
+  &:hover {
+    outline: 5px solid rgba(25, 100, 255, .6);
+  }
+
+  .card {
+    display: inline-block;
+  }
+
+  .value {
+    height: 60px;
+    width: 40px;
+    margin: 5px;
+    color: black;
+    font-size: 18px;
+    background: white;
+    visibility: hidden;
+
+    &.up {
+      visibility: visible;
+    }
+  }
+}

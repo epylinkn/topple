@@ -1,11 +1,6 @@
 .chat {
-  width: 30%;
-  min-width: 300px;
-  position: fixed;
-  right: 0;
-  top: 0;
-  bottom: 0;
   background-color: #CCC;
+  position: relative;
 }
 
 .new-message {
@@ -14,10 +9,10 @@
 }
 
 .messages {
+  height: 100%;
   position: absolute;
   bottom: 0;
   margin-bottom: 40px;
-  padding: 0 10px;
 }
 
 .message {

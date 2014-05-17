@@ -1,11 +1,9 @@
 'use strict';
 
-/* Directives */
+var toppleDirectives = angular.module('toppleDirectives', []);
 
-
-angular.module('myApp.directives', []).
-  directive('appVersion', ['version', function(version) {
-    return function(scope, elm, attrs) {
-      elm.text(version);
-    };
-  }]);
+toppleDirectives.directive('appVersion', ['version', function(version) {
+  return function(scope, elm, attrs) {
+    elm.text(version);
+  };
+}]);
