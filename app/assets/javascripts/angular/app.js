@@ -1,7 +1,5 @@
 'use strict';
 
-
-// Declare app level module which depends on filters, and services
 angular.module('myApp', [
   'ngRoute',
   'myApp.filters',
@@ -11,7 +9,9 @@ angular.module('myApp', [
   'firebase'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/', {templateUrl: 'partials/home.html'});
-  $routeProvider.when('/play', {templateUrl: 'partials/play.html', controller: 'PlayCtrl'});
+  $routeProvider.when('/', {templateUrl: 'templates/home.html'});
+  $routeProvider.when('/play', {
+    templateUrl: 'templates/play.html', controller: 'PlayCtrl'
+  });
   $routeProvider.otherwise({redirectTo: '/'});
 }]);
