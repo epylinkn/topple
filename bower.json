@@ -1,8 +1,11 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "topple",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/epylinkn/topple",
+  "authors": [
+    "Anthony Bui <anthonybui@gmail.com>"
+  ],
+  "description": "Extensible memory.",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -15,9 +18,17 @@
     "firebase": "~1.0.15",
     "jquery": "~2.1.1",
     "angularfire": "~0.7.1",
-    "firebase-simple-login": "~1.4.1",
+    "firebase-simple-login": "~1.4.1"
   },
   "resolutions": {
     "firebase-simple-login": "~1.4.1"
-  }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/javascripts",
+    "test",
+    "tests"
+  ]
 }
