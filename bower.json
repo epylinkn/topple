@@ -10,6 +10,7 @@
     "angular-route": "1.2.x",
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.15",
+    "angular-resource": "~1.2.15",
     "bootstrap": "~3.1.1",
     "firebase": "~1.0.15",
     "jquery": "~2.1.1",
