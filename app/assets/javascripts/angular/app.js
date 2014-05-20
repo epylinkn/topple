@@ -5,6 +5,5 @@ var toppleApp = angular.module('toppleApp', [
   'toppleFilters',
   'toppleServices',
   'toppleDirectives',
-
-//  'firebase'
+  'firebase'
 ]);

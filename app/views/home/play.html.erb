@@ -5,14 +5,12 @@
   </div>
 
   <div class="row">
-    <div class="col-sm-9 main">
+    <div class="col-sm-9 board">
 
-      <div class="board">
-        <div class="card-container" ng-repeat="card in cards">
-          <div class="card" ng-click="flip(card)">
-            <div class="value" ng-class="{up: faceUp(card)}">
-              {{ card.value }}
-            </div>
+      <div class="card-container" ng-repeat="card in cards">
+        <div class="card" ng-click="flip(card)">
+          <div class="value" ng-class="{up: faceUp(card)}">
+            {{ card.value }}
           </div>
         </div>
       </div>

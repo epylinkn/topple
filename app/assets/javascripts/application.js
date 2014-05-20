@@ -4,6 +4,7 @@
 //= require angular-route/angular-route
 //= require angular-resource/angular-resource
 //= require firebase/firebase
+//= require angularfire/angularfire
 //= require firebase-simple-login/firebase-simple-login
 //= require bootstrap/dist/js/bootstrap.min
 //= require_tree .
